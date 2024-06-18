@@ -1,0 +1,182 @@
+body {
+    
+    background-image: url("../assets/background-image-paws.jpg");
+
+}
+
+.logo {
+
+    display: flex;
+    align-content: top;
+    width: 250px; height: 250px;
+
+}
+
+section.grids {
+
+display: grid;
+justify-content: space-around;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: 1fr;
+grid-template-areas:"familia-feliz-1 famlia-feliz-2 famlia-feliz-3" "medio" "moca-3 tommy-2 benny-1" ;
+
+}
+
+* {
+
+font-family: "Poetsen One", sans-serif;
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+
+}
+
+header nav ul li {
+
+background-color: blanchedalmond;
+text-decoration: none;
+display: flex;
+display: inline-block;
+text-align: center;
+justify-content: space-evenly;
+
+}
+
+section img {
+
+    display: grid;
+    background-color: cadetblue;
+    padding: 20px;
+    height: 300px;
+    width: 400px;
+
+}
+
+section img {
+
+   display: grid;
+   align-items: center;
+   background-color: rgb(189, 79, 39);
+   height: 400px;
+   width: 90%;
+   padding: 10px;
+
+}   
+
+textarea:hover {
+
+border-color: rgb(167, 201, 17) ;
+
+}
+
+img {
+
+    width: 400px;
+height: 200px;
+
+}
+
+img.derecha {
+display: flexbox;
+position: fixed;
+
+}
+
+iframe {
+    display: flex;
+    width: 500px;
+    height: 500px;
+}
+
+@font-face {
+    font-family: "Poetsen+One";
+    src: url(https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap);
+}
+
+nav {
+    font-weight: 400;
+    font-style: normal;
+    text-align: justify;
+color: rgb(46, 240, 7);
+}
+
+ul {
+    font-weight: 400;
+    font-style: normal;
+    text-align: justify;
+    color: rgb(18, 54, 4);}
+
+
+p {
+    text-align: justify;
+    font-size: 18px;
+}
+
+
+
+h1 {
+    
+    font-weight: 400;
+    font-style: bold;
+    font-size: larger;
+    color: rgb(5, 119, 33);
+    text-align: center;
+
+}
+
+.bigger {
+    font-size: x-large;
+}
+
+.izquierda {
+    text-align: left;
+}
+
+h2 {
+    
+    font-weight: 400;
+    text-align: center;
+    font-style: normal;
+    font-size: large;
+    color: rgb(100, 0, 78)
+
+}
+
+    .violeta {color: violet}
+
+    h3 {
+        
+        font-weight: 600;
+        font-style: smaller;
+        text-decoration: wavy;
+        color: rgb(139, 5, 5)
+    
+    }
+
+        footer {
+            
+            font-weight: 400;
+            font-style: normal;
+            text-align: right;
+            color: rgb(92, 0, 100);
+           }
+
+            h6 {
+                text-align: center;
+            }
+
+/*Media queries */ 
+
+@media screen and (max-width: 1024px) {
+
+    /* solamente lo que cambia: llamar etiqueta, clase y elemento */
+    
+    section.grids{
+    
+        grid-template-columns: 95%; 
+       
+    
+    
+    }
+
+}
