@@ -1,5 +1,6 @@
 body {
     
+    
     background-image: url("../assets/background-image-paws.jpg");
 
 }
@@ -15,10 +16,19 @@ body {
 
 .logo {
 
-    display: flex;
-    width: 250px; height: 250px;
-
+    display: flexbox;
+    position: right;
+    width:250px; height:250px;
+    border-radius: 100px ;
 }
+
+img.carrousel {
+
+display: flex;
+padding: 10px;
+margin: 10px;
+}
+
 
 section.grids-index {
 
@@ -50,20 +60,30 @@ box-sizing: border-box;
 
 header nav ul li {
 
-background-color: rgb(238, 235, 231);
-text-decoration: none;
-display: flex;
-display: inline-block;
-position: center;
-justify-content: space-around;
+
+    background-color: rgb(237, 211, 233);
+
+    display: flex;
+
+    position: center;
+
 
 }
+
+
+h1.main-title-team {
+
+font-size:xx-large ;
+margin: 20px;
+
+}
+
 
 section img {
 
     display: grid;
     background-color: cadetblue;
-    padding: 20px;
+    padding: 10px;
     height: 300px;
     width: 400px;
 
@@ -77,7 +97,7 @@ section img {
    height: 400px;
    width: 90%;
    padding: 10px;
-
+   margin: 10px;
 }   
 
 textarea:hover {
@@ -131,11 +151,11 @@ ul {
 
 p {
 
-    display: flex;
+    display: flexbox;
     padding: 30px;
-    text-align: justify;
+    text-align: left;
     font-size: 18px;
-    position: relative;
+    color: rgb(1, 77, 1);
 }
 
 
@@ -161,9 +181,10 @@ h1 {
 
 h2 {
     
-    font-weight: 400;
+    display: block;
+    font-weight: 200;
     text-align: center;
-    font-style: normal;
+    font-style: small;
     font-size: large;
     color: rgb(100, 0, 78)
 
@@ -172,8 +193,9 @@ h2 {
     .violeta {color: violet}
 
     h3 {
-        
-        font-weight: 600;
+        display: flex;
+        padding: 20px;
+        font-weight: 300;
         font-style: smaller;
         text-decoration: wavy;
         color: rgb(139, 5, 5)
@@ -193,17 +215,21 @@ h2 {
                 text-align: center;
             }
 
+      
+
+
 /*Media queries */ 
 
 @media screen and (max-width: 1024px) {
 
     /* solamente lo que cambia: llamar etiqueta, clase y elemento */
-    
-section.grids-index {
+
+
+
+    section.grids-index {
 
     grid-template-columns: 1fr;
 }
-
     section.grids {
     
         grid-template-columns: 95%; 
