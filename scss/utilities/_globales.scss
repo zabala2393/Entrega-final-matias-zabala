@@ -1,0 +1,63 @@
+* {
+
+padding: 0;
+margin: 0;
+font-family: $font-global;
+box-sizing: border-box;
+
+}
+
+body {
+
+
+    background-image: url("../assets/background-image-paws.jpg");
+
+    main {
+       
+        section {
+
+            display: grid;
+        
+            img {
+        
+                align-items: center;
+                background-color: rgb(244, 183, 242);
+                width: 300px;
+                height: 300px;
+                padding: 10px;
+                margin: 10px;
+                
+        
+            }
+        
+            .grids {
+        
+                column-gap: 80px;
+                justify-content: space-around;
+                grid-template-columns: repeat(3, 1fr);
+                grid-template-rows: 1fr;
+        
+        
+        
+            }
+        
+        
+            .grids-index {
+        
+                grid-template-columns: repeat(4, 1fr);
+        
+            }
+        
+        
+        }
+        
+        }
+
+
+
+    }
+
+
+
+
+
