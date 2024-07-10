@@ -12,12 +12,16 @@ body {
 body main h1 {
   color: rgb(5, 119, 33);
 }
-body main .main-title {
+body main .main-title, body main h3, body main h2, body main h1 {
+  font-weight: 200px;
+  text-align: center;
+  padding: 10px;
   color: darkgreen;
+  font-size: xx-large;
 }
 body main h2 {
-  font-style: small;
   color: rgb(100, 0, 78);
+  font-size: larger;
 }
 body main h3 {
   text-decoration: wavy;
@@ -33,7 +37,6 @@ body main section p {
   color: rgb(1, 77, 1);
 }
 body main section img {
-  object-fit: fill;
   background-color: rgb(244, 183, 242);
   width: 300px;
   height: 300px;
@@ -42,31 +45,29 @@ body main section img {
   margin: 10px;
 }
 body main section iframe {
-  width: 500px;
-  height: 500px;
+  width: 400px;
+  height: 400px;
 }
 body main section .grids {
   column-gap: 80px;
   justify-content: space-around;
   grid-template-columns: repeat(3, 1fr);
 }
-body main section .grids-index {
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 1fr;
+body main div button {
+  display: block;
 }
 body main div button:hover {
   background-color: rgb(225, 156, 217);
   border-bottom: 5px;
   border-color: bisque;
 }
-
-body main h1, body main h2, body main h3 {
-  font-weight: 200px;
-  text-align: justify;
-  font-size: larger;
-  padding: 20px;
+body main div textarea {
+  display: block;
+  height: 400;
+  width: 400;
 }
 
+/* El mixin esta definido, pero no logro que compile correctamente */
 header nav {
   background-color: rgb(244, 218, 245);
 }

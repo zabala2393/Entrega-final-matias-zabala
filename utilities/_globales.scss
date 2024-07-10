@@ -20,41 +20,40 @@ body {
 
         h1 {  
 
-           color: rgb(5, 119, 33);
-           @extend .encabezado;
+
+            color: rgb(5, 119, 33);
+            @extend .main-title;
+          
         
         }
 
         .main-title {
 
+            font-weight: 200px;
+            text-align: center;
+            padding: $standard-padding;
             color: $bold-green-title;
-
-
+            font-size:xx-large;
+            
+        
         }
         
-        .encabezado {
-
-            font-weight: 200px;
-            text-align: justify;
-            font-size: larger;
-            padding: $standard-padding;
-               
-
-        }
 
         h2 {
-                           
-            
-            font-style: small;
+                         
+            @extend .main-title;            
             color: rgb(100, 0, 78);
-            @extend .encabezado;
+            font-size: larger;
+            
+        
         }
 
         h3 {
 
-            @extend .encabezado;       
+             
             text-decoration: wavy;
-            color: rgb(139, 5, 5)
+            color: rgb(139, 5, 5);
+            @extend .main-title;
         
         }
 
@@ -73,7 +72,7 @@ body {
             img {
       
                 
-                object-fit: fill;        
+                      
                 background-color: rgb(244, 183, 242);
                 width: 300px;
                 height: 300px;
@@ -86,8 +85,8 @@ body {
 
             iframe {
 
-                width: 500px;
-                height: 500px;
+                width: 400px;
+                height: 400px;
 
 
                 
@@ -100,37 +99,35 @@ body {
                 grid-template-columns: repeat(3, 1fr);                             
         
             }
-        
-        
-            .grids-index {
-                        
-                grid-template-columns: repeat(4, 1fr);
-                grid-template-rows: 1fr;                
-        
-            }
+                
                 
         }
 
         div {
 
-            button {
+                 
 
-
-                display: line;
-
-
+            button {        
+                
+                display: block;                        
+                       
+                &:hover {
+                                         
+               background-color: rgb(225, 156, 217);
+               border-bottom: 5px;
+               border-color: bisque;
+           
             }
             
-            &:hover
 
-                 {
-                        
-                
-                background-color: rgb(225, 156, 217);
-                border-bottom: 5px;
-                border-color: bisque;
 
             }
+
+            textarea {
+                
+                object-fit: fill;
+                height: 400;
+                width: 400;
 
             }
 
@@ -140,9 +137,9 @@ body {
         
         }
 
-
-
     }
+
+}
 
 
 
