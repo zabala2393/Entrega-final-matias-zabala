@@ -1,9 +1,13 @@
 
 header {
     
+
+
     nav {
 
-        background-color:rgb(244, 218, 245) ;
+        div {
+
+        background-color:rgb(244, 183, 242) ;
 
         ul {
 
@@ -11,26 +15,31 @@ header {
 
             li {
 
-            font-weight: 400px;
-            font-style: normal;
-            text-align: justify;
-            color: darkgreen;
+                a {
+
+                
+                font-weight: 400px;           
+                font-style: normal;           
+                text-align: justify;           
+                color: darkgreen;
 
             :hover {
 
                     background-color: rgb(219, 168, 228);
                     border-radius: 10px;
-                    border-color: blueviolet;
+                    
                             
                
             }
-                      
+        }   
         }
             
 
     
     }
     
+}
+
 }
 
     .logo {

@@ -62,25 +62,24 @@ body main div button:hover {
   border-color: bisque;
 }
 body main div textarea {
-  display: block;
+  object-fit: fill;
   height: 400;
   width: 400;
 }
 
 /* El mixin esta definido, pero no logro que compile correctamente */
-header nav {
-  background-color: rgb(244, 218, 245);
+header nav div {
+  background-color: rgb(244, 183, 242);
 }
-header nav ul li {
+header nav div ul li {
   font-weight: 400px;
   font-style: normal;
   text-align: justify;
   color: darkgreen;
 }
-header nav ul li :hover {
+header nav div ul li :hover {
   background-color: rgb(219, 168, 228);
   border-radius: 10px;
-  border-color: blueviolet;
 }
 header .logo {
   width: 180px;
