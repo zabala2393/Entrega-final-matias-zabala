@@ -79,14 +79,16 @@ body {
                 width: 90%;
                 padding: 10px;
                 margin: 10px;
-                
+
+
         
             }
 
             iframe {
 
-                width: 400px;
-                height: 400px;
+                object-fit: contain;
+                width: 500px;
+                height: 300px;
 
 
                 
@@ -98,23 +100,26 @@ body {
                 justify-content: space-around;
                 grid-template-columns: repeat(3, 1fr);                             
         
+            
             }
-                
+
+
                 
         }
 
         div {
-
-                 
+                
 
             button {        
                 
-                display: block;                        
+                position: relative;
+                bottom: 12px;
+                left: 800px;
                        
                 &:hover {
                                          
                background-color: rgb(225, 156, 217);
-               border-bottom: 5px;
+               border-bottom: 10px;
                border-color: bisque;
            
             }
@@ -125,11 +130,13 @@ body {
 
             textarea {
                 
-                object-fit: fill;
+                
                 height: 400;
                 width: 400;
 
             }
+
+
 
 
 

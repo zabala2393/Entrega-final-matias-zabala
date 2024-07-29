@@ -1,11 +1,1 @@
 
-/* El mixin esta definido, pero no logro que compile correctamente */
-
-@mixin  encabezado {
-
-    font-weight: 200px;
-    text-align: justify;
-    font-size: larger;
-    padding: $standard-padding;
-       
-}

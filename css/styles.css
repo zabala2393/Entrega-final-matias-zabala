@@ -45,8 +45,9 @@ body main section img {
   margin: 10px;
 }
 body main section iframe {
-  width: 400px;
-  height: 400px;
+  object-fit: contain;
+  width: 500px;
+  height: 300px;
 }
 body main section .grids {
   column-gap: 80px;
@@ -54,20 +55,47 @@ body main section .grids {
   grid-template-columns: repeat(3, 1fr);
 }
 body main div button {
-  display: block;
+  position: relative;
+  bottom: 12px;
+  left: 800px;
 }
 body main div button:hover {
   background-color: rgb(225, 156, 217);
-  border-bottom: 5px;
+  border-bottom: 10px;
   border-color: bisque;
 }
 body main div textarea {
-  object-fit: fill;
   height: 400;
   width: 400;
 }
 
-/* El mixin esta definido, pero no logro que compile correctamente */
+@media screen and (min-width: 1024px) {
+  img.flecha-volver {
+    display: none;
+  }
+}
+header section {
+  display: flex;
+}
+header section img {
+  width: 1800px;
+  height: 300px;
+  opacity: 1;
+  background: hsl(298, 68%, 90%);
+  background: linear-gradient(90deg, hsl(298, 68%, 90%) 0%, hsl(30, 82%, 91%) 100%);
+  background: -moz-linear-gradient(90deg, hsl(298, 68%, 90%) 0%, hsl(30, 82%, 91%) 100%);
+  background: -webkit-linear-gradient(90deg, hsl(298, 68%, 90%) 0%, hsl(30, 82%, 91%) 100%);
+  z-index: -999;
+}
+header section p {
+  position: absolute;
+  top: 225px;
+  left: 20px;
+  z-index: 9999;
+  font-size: 50px;
+  color: darkgreen;
+  text-align: justify;
+}
 header nav div {
   background-color: rgb(244, 183, 242);
 }
@@ -81,7 +109,10 @@ header nav div ul li :hover {
   background-color: rgb(219, 168, 228);
   border-radius: 10px;
 }
-header .logo {
+header img.logo {
+  position: absolute;
+  top: 20px;
+  left: 20px;
   width: 180px;
   height: 180px;
   border-radius: 100px;
@@ -89,11 +120,21 @@ header .logo {
   margin: 5px;
 }
 
+footer p {
+  text-align: left;
+}
 footer section {
   font-weight: 400px;
   font-style: oblique;
   text-align: right;
   color: darkmagenta;
+}
+footer section a img {
+  position: fixed;
+  bottom: 20px;
+  right: 12px;
+  height: 60px;
+  width: 60px;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -1,6 +1,12 @@
 
 footer {
 
+    p {
+
+        text-align: left;
+
+    }
+
     section {
         
     font-weight: 400px;
@@ -8,6 +14,16 @@ footer {
     text-align: right;
     color: darkmagenta;
 
+    a {
+            img {
+            position: fixed;        
+            bottom: 20px;        
+            right: 12px;    
+            height: 60px;
+            width: 60px;
+                                  
+        }                      
+    }
 }
 
 }
