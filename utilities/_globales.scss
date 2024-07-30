@@ -11,7 +11,6 @@ box-sizing: border-box;
 
 body {
 
-
     background-image: url("../assets/background-image-paws.jpg");
 
     main {             
@@ -81,16 +80,22 @@ body {
                 margin: 10px;
 
 
+                &.imagen-voluntariado {
+
+                    height: 400px;
+                    width: 400px;
+
+                }
+
         
             }
+
 
             iframe {
 
                 object-fit: contain;
                 width: 500px;
                 height: 300px;
-
-
                 
             }
         
@@ -99,35 +104,47 @@ body {
                 column-gap: 80px;
                 justify-content: space-around;
                 grid-template-columns: repeat(3, 1fr);                             
-        
-            
-            }
-
-
-            div {
-
-    
-                textarea {
-                               
-    
-                    height: 300px;
-                    width: 400px;
                     
-                }
-
             }
+
                 
         }
 
         div {
-                
+                 
+                       
+
+                textarea {
+                               
+    
+                    height: 300px;
+                    width: 550px;
+
+                }
+
+                ul {
+
+                    li{
+
+                    
+                        textarea {
+
+                           
+                            height: 200px;
+                            width: 400px;
+
+
+                        }
+
+                    }
+                }
 
             button {        
 
                
                 position: relative;         
                 bottom: 12px;
-                left: 150px;
+                left: 180px;
                        
                 &:hover {
                                          

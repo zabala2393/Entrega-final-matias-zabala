@@ -44,6 +44,10 @@ body main section img {
   padding: 10px;
   margin: 10px;
 }
+body main section img.imagen-voluntariado {
+  height: 400px;
+  width: 400px;
+}
 body main section iframe {
   object-fit: contain;
   width: 500px;
@@ -54,14 +58,18 @@ body main section .grids {
   justify-content: space-around;
   grid-template-columns: repeat(3, 1fr);
 }
-body main section div textarea {
+body main div textarea {
   height: 300px;
+  width: 550px;
+}
+body main div ul li textarea {
+  height: 200px;
   width: 400px;
 }
 body main div button {
   position: relative;
   bottom: 12px;
-  left: 150px;
+  left: 180px;
 }
 body main div button:hover {
   background-color: rgb(225, 156, 217);
@@ -72,12 +80,6 @@ body main div button:hover {
 @media screen and (min-width: 1024px) {
   img.flecha-volver {
     display: none;
-  }
-  main div button {
-    display: inline-block;
-    position: relative;
-    bottom: 12px;
-    left: 1800px;
   }
 }
 header section {
