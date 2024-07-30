@@ -104,6 +104,18 @@ body {
             }
 
 
+            div {
+
+    
+                textarea {
+                               
+    
+                    height: 300px;
+                    width: 400px;
+                    
+                }
+
+            }
                 
         }
 
@@ -111,10 +123,11 @@ body {
                 
 
             button {        
-                
-                position: relative;
+
+               
+                position: relative;         
                 bottom: 12px;
-                left: 800px;
+                left: 150px;
                        
                 &:hover {
                                          
@@ -123,24 +136,9 @@ body {
                border-color: bisque;
            
             }
-            
-
-
+          
             }
-
-            textarea {
-                
-                
-                height: 400;
-                width: 400;
-
-            }
-
-
-
-
-
-        
+       
         
         }
 

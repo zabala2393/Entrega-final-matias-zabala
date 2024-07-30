@@ -2,15 +2,28 @@
 
 @media screen and (min-width: 1024px) {
 
-
       img.flecha-volver {
-
         display: none;
+            }       
 
-        
-      }
-    
-       
 
+
+ main {           
+        div {
+
+
+
+          button {
+
+            display: inline-block;
+            position: relative;         
+            bottom: 12px;
+            left: 1800px;
+
+          }
+        }    
 
 }
+
+}
+
