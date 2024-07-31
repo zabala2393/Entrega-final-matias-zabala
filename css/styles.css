@@ -48,9 +48,8 @@ body main section img.imagen-voluntariado {
   height: 400px;
   width: 400px;
 }
-body main section iframe {
-  object-fit: contain;
-  width: 500px;
+body main section iframe, body main section div textarea, body main div section textarea {
+  width: 400px;
   height: 300px;
 }
 body main section .grids {
@@ -58,9 +57,9 @@ body main section .grids {
   justify-content: space-around;
   grid-template-columns: repeat(3, 1fr);
 }
-body main div textarea {
-  height: 300px;
-  width: 550px;
+body main div .carousel-inner {
+  width: 390px;
+  height: 400px;
 }
 body main div ul li textarea {
   height: 200px;
@@ -82,18 +81,17 @@ body main div button:hover {
     display: none;
   }
 }
+@media screen and (max-width: 1024px) {
+  section.grids {
+    grid-template-columns: 100%;
+  }
+}
 header section {
   display: flex;
 }
 header section img {
-  width: 1800px;
+  width: 1900px;
   height: 300px;
-  opacity: 1;
-  background: hsl(298, 68%, 90%);
-  background: linear-gradient(90deg, hsl(298, 68%, 90%) 0%, hsl(30, 82%, 91%) 100%);
-  background: -moz-linear-gradient(90deg, hsl(298, 68%, 90%) 0%, hsl(30, 82%, 91%) 100%);
-  background: -webkit-linear-gradient(90deg, hsl(298, 68%, 90%) 0%, hsl(30, 82%, 91%) 100%);
-  z-index: -999;
 }
 header section p {
   position: absolute;
