@@ -3,10 +3,22 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "sass": "node-sass -w scss/ -o css/ --recursive"
   },
   "keywords": [],
-  "author": "",
+  "author": "Matias Zabala",
   "license": "ISC",
-  "description": ""
+  "description": "Entrega final",
+  "dependencies": {
+    "node-sass": "^9.0.0",
+    "sass": "^1.77.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zabala2393/Entrega-final-matias-zabala.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zabala2393/Entrega-final-matias-zabala/issues"
+  },
+  "homepage": "https://github.com/zabala2393/Entrega-final-matias-zabala#readme"
 }

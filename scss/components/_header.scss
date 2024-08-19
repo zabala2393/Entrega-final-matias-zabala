@@ -1,0 +1,88 @@
+
+header {
+
+    section {
+
+        display: flex;
+
+        img {
+                   
+            width: 1900px;  
+            height: 300px;  
+            object-fit: cover; 
+            overflow-x: auto;             
+
+        }
+
+        p {
+
+            position: absolute;
+            top: 225px;
+            left: 20px;
+            z-index: 9999;
+            font-size: 50px;
+            color: $bold-green-title;
+            text-align: justify;
+        }
+
+
+}
+        
+
+    nav {
+
+       
+
+        div {
+
+        background-color:rgb(244, 183, 242) ;
+
+        ul {
+
+
+
+            li {
+                
+                font-weight: 400px;           
+                font-style: normal;           
+                text-align: justify;           
+                color: darkgreen;
+
+            :hover {
+
+                    background-color: rgb(219, 168, 228);
+                    border-radius: 10px;
+                    
+                            
+               
+            }
+  
+        }
+            
+
+    
+    }
+    
+}
+
+}
+
+
+img.logo {
+
+
+    
+    position: absolute; 
+    top: 20px;
+    left: 20px;   
+    width: 180px;
+    height: 180px;
+    border-radius: 100px;
+    border: 5px;
+    margin: 5px;
+        
+                
+
+    }
+}
+

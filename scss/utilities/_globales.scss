@@ -1,0 +1,178 @@
+* {
+
+padding: 0;
+margin: 0;
+font-family: $font-global;
+box-sizing: border-box;
+
+}
+
+
+
+body {
+
+    background-image: url("../assets/background-image-paws.jpg");
+
+    main {             
+
+
+
+        h1 {  
+
+
+            color: rgb(5, 119, 33);
+            @extend .main-title;
+          
+        
+        }
+
+        .main-title {
+
+            font-weight: 200px;
+            text-align: center;
+            padding: $standard-padding;
+            color: $bold-green-title;
+            font-size:xx-large;
+            
+        
+        }
+        
+
+        h2 {
+                         
+            @extend .main-title;            
+            color: rgb(100, 0, 78);
+            font-size: larger;
+            
+        
+        }
+
+        h3 {
+
+             
+            text-decoration: wavy;
+            color: rgb(139, 5, 5);
+            @extend .main-title;
+        
+        }
+
+        section {      
+            
+            display: grid;
+
+            p {
+
+                padding: 30px;
+                text-align: left;
+                font-size: 18px;
+                color: rgb(1, 77, 1);
+            }    
+                  
+            img {
+      
+                
+                      
+                background-color: rgb(244, 183, 242);
+                width: 300px;
+                height: 300px;
+                width: 90%;
+                padding: 10px;
+                margin: 10px;
+                object-fit: cover;
+
+
+                &.imagen-voluntariado {
+
+                    height: 400px;
+                    width: 400px;
+
+                }
+
+        
+            }
+
+
+            iframe {
+
+                
+                width: 400px;
+                height: 300px;
+                
+            }
+        
+            .grids {
+        
+                column-gap: 80px;
+                justify-content: space-around;
+                grid-template-columns: repeat(3, 1fr);                             
+                    
+            }
+
+                
+        }
+
+        div {
+
+            .carousel-inner {
+
+                
+                object-fit: cover;
+
+   
+            }               
+                       
+
+                textarea {
+                               
+                    @extend iframe
+    
+
+                }
+
+                ul {
+
+                    li{
+
+                    
+                        textarea {
+
+                           
+                            height: 200px;
+                            width: 400px;
+
+
+                        }
+
+                    }
+                }
+
+            button {        
+
+               
+                position: relative;         
+                bottom: 12px;
+                left: 180px;
+                       
+                &:hover {
+                                         
+               background-color: rgb(225, 156, 217);
+               border-bottom: 10px;
+               border-color: bisque;
+           
+            }
+          
+            }
+       
+        
+        }
+
+    }
+
+}
+
+
+
+
+
+
+
