@@ -67,9 +67,9 @@ header section {
     height: 300px;
     object-fit: cover;
     overflow-x: auto; }
-  header section p {
+  header section h1 {
     position: absolute;
-    top: 225px;
+    top: 235px;
     left: 20px;
     z-index: 9999;
     font-size: 50px;
@@ -112,9 +112,16 @@ footer a img {
   width: 60px; }
 
 @media screen and (min-width: 1024px) {
+  main section div iframe, body main section div textarea {
+    width: 550px;
+    height: 300px; }
+  button.hover {
+    left: 875px; }
   img.flecha-volver {
     display: none; } }
 
 @media screen and (max-width: 1024px) {
   section.grids {
-    grid-template-columns: 100%; } }
+    grid-template-columns: 100%; }
+  header section h1 {
+    color: blueviolet; } }

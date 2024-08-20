@@ -2,17 +2,58 @@
 
 @media screen and (min-width: 1024px) {
 
-      img.flecha-volver {
-        display: none;
-            }       
+main {
 
+  section {
+    div {
+
+      iframe {
+
+        width: 550px;
+        height: 300px;
+
+      }
+    }
+  }
+}
+
+button.hover {
+
+
+  left: 875px;
+
+
+}
+
+img.flecha-volver {
+  display: none;
+} 
 }
 
 @media screen and (max-width: 1024px) {
   
+
+
+
 section.grids {
     
   grid-template-columns: 100%; 
  
 }
+
+header {
+
+  section {
+
+  h1 {
+
+    color: blueviolet;
+
+  }
+
 }
+
+}
+
+}
+
