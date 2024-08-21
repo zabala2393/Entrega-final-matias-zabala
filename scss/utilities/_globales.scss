@@ -84,7 +84,8 @@ body {
                 &.imagen-voluntariado {
 
                     height: 400px;
-                    width: 400px;
+                    width: 375px;
+
 
                 }
 
@@ -97,6 +98,7 @@ body {
                 
                 width: 400px;
                 height: 300px;
+                object-fit: cover;
                 
             }
         
@@ -137,7 +139,8 @@ body {
 
                            
                             height: 200px;
-                            width: 400px;
+                            width: 375px;
+                            @extend iframe
 
 
                         }
