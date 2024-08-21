@@ -97,7 +97,7 @@ body {
                 
                 width: 400px;
                 height: 300px;
-                
+                object-fit: cover;
             }
         
             .grids {
@@ -137,7 +137,8 @@ body {
 
                            
                             height: 200px;
-                            width: 400px;
+                            width: 375px;
+                            @extend iframe
 
 
                         }

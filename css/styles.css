@@ -39,9 +39,10 @@ body {
       body main section img.imagen-voluntariado {
         height: 400px;
         width: 400px; }
-    body main section iframe, body main section div textarea, body main div section textarea {
+    body main section iframe, body main section div textarea, body main div section textarea, body main section div ul li textarea, body main div ul li section textarea {
       width: 400px;
-      height: 300px; }
+      height: 300px;
+      object-fit: cover; }
     body main section .grids {
       column-gap: 80px;
       justify-content: space-around;
@@ -50,7 +51,7 @@ body {
     object-fit: cover; }
   body main div ul li textarea {
     height: 200px;
-    width: 400px; }
+    width: 375px; }
   body main div button {
     position: relative;
     bottom: 12px;
@@ -112,7 +113,7 @@ footer a img {
   width: 60px; }
 
 @media screen and (min-width: 1024px) {
-  main section div iframe, body main section div textarea {
+  main section div iframe, body main section div textarea, body main section div ul li textarea {
     width: 550px;
     height: 300px; }
   button.hover {
