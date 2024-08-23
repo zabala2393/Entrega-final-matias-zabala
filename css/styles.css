@@ -38,9 +38,10 @@ body {
       object-fit: cover; }
       body main section img.imagen-voluntariado {
         height: 400px;
-        width: 400px; }
+        width: 350px;
+        object-fit: cover; }
     body main section iframe, body main section div textarea, body main div section textarea, body main section div ul li textarea, body main div ul li section textarea {
-      width: 400px;
+      width: 375px;
       height: 300px;
       object-fit: cover; }
     body main section .grids {
@@ -125,4 +126,8 @@ footer a img {
   section.grids {
     grid-template-columns: 100%; }
   header section h1 {
-    color: blueviolet; } }
+    color: blueviolet; }
+  body div textarea.comentarios {
+    width: 340px; }
+  body div section iframe, body main div section textarea, body main div section ul li textarea, body main div ul li section textarea {
+    width: 350px; } }
